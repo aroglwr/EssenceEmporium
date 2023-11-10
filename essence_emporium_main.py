@@ -67,7 +67,7 @@ class MainWindow:
         main_background = Label(master, image=main_window_background)
         main_background.image = main_window_background
         main_background.place(relwidth=1, relheight=1)
-        messagebox.showinfo(title="ALERT", message="Fork of https://github.com/MManoah/lol-champion-and-skin-count \nCredit to MManoah edited by aroglwr")
+        #messagebox.showinfo(title="ALERT", message="Fork of https://github.com/MManoah/lol-champion-and-skin-count \nCredit to MManoah edited by aroglwr")
         champion_info = Text(master, fg='#8080ff', bg='#0E0E0E', borderwidth=2, relief="groove")
         champion_info.place(relx=0.1, rely=0.2, relwidth=0.8, relheight=0.1)
         champion_info.insert('end', 'Blue Essence:\t\t')
